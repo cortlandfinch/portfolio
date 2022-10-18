@@ -10,8 +10,31 @@
         @apply font-[Lato];
     }
     li {
-        @apply font-thin;
         @apply px-4;
         @apply cursor-pointer;
     }
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #9381ff;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

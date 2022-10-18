@@ -14,11 +14,11 @@ const Navbar = () => {
 
             {/* Nav Menu */}
             <ul className='hidden md:flex'>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>TECHNICAL SKILLS</li>
-                <li>EXPERIENCE</li>
-                <li>CONTACT</li>
+                <li className='nav-link'>HOME</li>
+                <li className='nav-link'>BACKGROUND</li>
+                <li className='nav-link'>TECHNICAL SKILLS</li>
+                <li className='nav-link'>EXPERIENCE</li>
+                <li className='nav-link'>CONTACT</li>
             </ul>
 
             {/* Nav Hamburger Menu */}
@@ -29,7 +29,7 @@ const Navbar = () => {
             {/* Mobile Nav Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#2b2b2b] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-3xl'>Home</li>
-                <li className='py-6 text-3xl'>About</li>
+                <li className='py-6 text-3xl'>Background</li>
                 <li className='py-6 text-3xl'>Technical Skills</li>
                 <li className='py-6 text-3xl'>Experience</li>
                 <li className='py-6 text-3xl'>Contact</li>

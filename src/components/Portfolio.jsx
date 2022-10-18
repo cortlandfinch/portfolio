@@ -22,7 +22,7 @@ const Portfolio = () => {
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='https://github.com/cortlandfinch/LeashLeague' target="_blank" rel='noreferrer'>
-                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                    <button className="text-center px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
                                         GitHub Code
                                     </button>
                                 </a>
@@ -36,7 +36,7 @@ const Portfolio = () => {
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='https://github.com/cortlandfinch/super-secret' target="_blank" rel='noreferrer'>
-                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                    <button className="text-center px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
                                         GitHub Code
                                     </button>
                                 </a>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='https://github.com/cortlandfinch/just_me' target="_blank" rel='noreferrer'>
-                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                    <button className="text-center px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
                                         GitHub Code
                                     </button>
                                 </a>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='https://github.com/cortlandfinch/Professional-Read-Me-Generator' target="_blank" rel='noreferrer'>
-                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                    <button className="text-center px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
                                         GitHub Code
                                     </button>
                                 </a>
@@ -78,7 +78,7 @@ const Portfolio = () => {
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='https://github.com/cortlandfinch/RVA-Hotspot' target="_blank" rel='noreferrer'>
-                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                    <button className="text-center px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
                                         GitHub Code
                                     </button>
                                 </a>
@@ -92,7 +92,7 @@ const Portfolio = () => {
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='https://github.com/cortlandfinch/project-secretary' target="_blank" rel='noreferrer'>
-                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                    <button className="text-center px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
                                         GitHub Code
                                     </button>
                                 </a>

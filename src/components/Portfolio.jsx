@@ -17,88 +17,88 @@ const Portfolio = () => {
                 <div className="grid grid-cols-3 gap-y-8">
                     <div style={{ backgroundImage: `url(${project1})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-[#2b2b2b] tracking-wider">
+                            <span className="text-2xl text-[#2b2b2b] tracking-wider">
                                 Leash League Group Project
                             </span>
                             <div className="pt-8 text-center ">
                                 <a href='/' target="_blank">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg">
-                                        Code
+                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                        GitHub Code
                                     </button>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div style={{ backgroundImage: `url(${project2})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-[#2b2b2b] tracking-wider">
-                            Leash League Group Project
-                        </span>
-                        <div className="pt-8 text-center ">
-                            <a href='/' target="_blank">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg">
-                                    Code
-                                </button>
-                            </a>
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl text-[#2b2b2b] tracking-wider">
+                                Javascript Password Generator
+                            </span>
+                            <div className="pt-8 text-center ">
+                                <a href='/' target="_blank">
+                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                        GitHub Code
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div style={{ backgroundImage: `url(${project3})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl text-[#2b2b2b] tracking-wider">
-                        Leash League Group Project
-                    </span>
-                    <div className="pt-8 text-center ">
-                        <a href='/' target="_blank">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg">
-                                Code
-                            </button>
-                        </a>
+                    <div style={{ backgroundImage: `url(${project3})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl text-[#2b2b2b] tracking-wider">
+                                HTML/CSS Portfolio
+                            </span>
+                            <div className="pt-8 text-center ">
+                                <a href='/' target="_blank">
+                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                        GitHub Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div style={{ backgroundImage: `url(${project4})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
-            <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl text-[#2b2b2b] tracking-wider">
-                    Leash League Group Project
-                </span>
-                <div className="pt-8 text-center ">
-                    <a href='/' target="_blank">
-                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg">
-                            Code
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div style={{ backgroundImage: `url(${project5})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
-        <div className="opacity-0 group-hover:opacity-100">
-            <span className="text-[#2b2b2b] tracking-wider">
-                Leash League Group Project
-            </span>
-            <div className="pt-8 text-center ">
-                <a href='/' target="_blank">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg">
-                        Code
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div style={{ backgroundImage: `url(${project6})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
-    <div className="opacity-0 group-hover:opacity-100">
-        <span className="text-[#2b2b2b] tracking-wider">
-            Leash League Group Project
-        </span>
-        <div className="pt-8 text-center ">
-            <a href='/' target="_blank">
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg">
-                    Code
-                </button>
-            </a>
-        </div>
-    </div>
-</div>
+                    <div style={{ backgroundImage: `url(${project4})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl text-[#2b2b2b] tracking-wider">
+                                Javascript ReadMe.md Generator
+                            </span>
+                            <div className="pt-8 text-center ">
+                                <a href='/' target="_blank">
+                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                        GitHub Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${project5})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl text-[#2b2b2b] tracking-wider">
+                                RVA Hotspot Group Project
+                            </span>
+                            <div className="pt-8 text-center ">
+                                <a href='/' target="_blank">
+                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                        GitHub Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${project6})` }} className="shadow-lg shadow-[#9381ff] group container flex justify-center text-center items-center mx-auto project-container hover:shadow-lg hover:shadow-[#2b2b2b] hover:text-[#2b2b2b]">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl text-[#2b2b2b] tracking-wider">
+                                Javascript Workday Scheduler
+                            </span>
+                            <div className="pt-8 text-center ">
+                                <a href='/' target="_blank">
+                                    <button className="text-center rounded-md px-8 py-2 m-2 bg-[#2b2b2b] text-[#e9ecef] text-lg hover:bg-[#e9ecef] hover:text-[#2b2b2b] hover:shadow-md hover:shadow-[#2b2b2b]">
+                                        GitHub Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

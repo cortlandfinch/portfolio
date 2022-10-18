@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/logo-dark.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -8,18 +7,15 @@ const Navbar = () => {
 
     return (
         <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#2b2b2b] text-[#e9ecef]'>
-            <div>
-                <img src={Logo} alt='Cortland Logo' style={{ width: '50px' }} />
-            </div>
 
             {/* Nav Menu */}
-            <ul className='hidden md:flex'>
-                <li className='nav-link'>HOME</li>
-                <li className='nav-link'>BACKGROUND</li>
-                <li className='nav-link'>TECHNICAL SKILLS</li>
-                <li className='nav-link'>PORTFOLIO</li>
-                <li className='nav-link'>CONTACT</li>
-            </ul>
+                <ul className='hidden md:flex nav-bar-menu mx-auto space-x-10'>
+                    <li className='nav-link'>HOME</li>
+                    <li className='nav-link'>BACKGROUND</li>
+                    <li className='nav-link'>TECHNICAL SKILLS</li>
+                    <li className='nav-link'>PORTFOLIO</li>
+                    <li className='nav-link'>CONTACT</li>
+                </ul>
 
             {/* Nav Hamburger Menu */}
             <div onClick={handleClick} className='md:hidden z-10'>

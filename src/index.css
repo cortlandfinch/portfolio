@@ -21,6 +21,11 @@
     transition: all 0.3s ease 0s;
 }
 
+.nav-link:hover {
+    color: #9381ff;
+    transform: translateY(-2px);
+}
+
 .nav-link:after {
     content: "";
     position: absolute;
@@ -51,5 +56,5 @@
     background-image: radial-gradient(
         rgba(216, 208, 239, 1) 0%,
         rgba(147, 129, 255, 1) 100%
-    );
+    )!important;
 }

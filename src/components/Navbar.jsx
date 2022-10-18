@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li className='nav-link'>HOME</li>
                 <li className='nav-link'>BACKGROUND</li>
                 <li className='nav-link'>TECHNICAL SKILLS</li>
-                <li className='nav-link'>EXPERIENCE</li>
+                <li className='nav-link'>PORTFOLIO</li>
                 <li className='nav-link'>CONTACT</li>
             </ul>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <li className='py-6 text-3xl'>Home</li>
                 <li className='py-6 text-3xl'>Background</li>
                 <li className='py-6 text-3xl'>Technical Skills</li>
-                <li className='py-6 text-3xl'>Experience</li>
+                <li className='py-6 text-3xl'>Portfolio</li>
                 <li className='py-6 text-3xl'>Contact</li>
             </ul>
         </div>

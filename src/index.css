@@ -38,3 +38,18 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+.project-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    width: 500px;
+}
+
+.project-container:hover {
+    background-image: radial-gradient(
+        rgba(216, 208, 239, 1) 0%,
+        rgba(147, 129, 255, 1) 100%
+    )!important;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Background = () => {
   return (
-    <div className='w-full h-screen bg-[#f8f9fa] text-[#2b2b2b]'>
+    <div name='background' className='w-full h-screen bg-[#f8f9fa] text-[#2b2b2b]'>
       <div className='flex flex-col justify-center items-center  w-full h-full'>
         <div className='max-w-[1000px] w-full'>
           <div className='text-center'>

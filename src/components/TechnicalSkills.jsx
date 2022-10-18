@@ -8,7 +8,7 @@ import github from '../assets/github.png';
 
 const TechnicalSkills = () => {
     return (
-        <div className='w-full h-screen bg-[#2b2b2b] text-[#f8f9fa]'>
+        <div name='technical-skills' className='w-full h-screen bg-[#2b2b2b] text-[#f8f9fa]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='max-w-[1000px] w-full'>
                     <div className='text-center'>

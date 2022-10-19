@@ -5,6 +5,7 @@ import Background from './components/Background';
 import TechnicalSkills from './components/TechnicalSkills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TechnicalSkills />
       <Portfolio />
       <Contact />
+      <Resume />
     </div>
   );
 }

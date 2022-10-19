@@ -2,10 +2,10 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='w-full h-screen bg-[#2b2b2b] text-[#e9ecef] flex justify-center items-center p-4'>
+        <div name='contact' className='w-full h-screen bg-[#2b2b2b] text-[#e9ecef] flex justify-center items-center p-4'>
             <div className='flex flex-col justify-center items-center  w-full h-full'>
                 <div className='max-w-[1000px] w-full'>
-                    <form action='' className='flex flex-col max-w-[1000px] w-full items-center'>
+                    <form method='POST' action='https://getform.io/f/2b4f2cee-0e5e-4370-84ba-7469f7a5f3a2' className='flex flex-col max-w-[1000px] w-full items-center'>
                         <div className='text-center'>
                             <h2 className='text-4xl inline border-b-4 border-[#9381ff] py-2'>Contact</h2>
                             <p className='py-6'>Please feel free to fill out the form to get in contact with me!</p>

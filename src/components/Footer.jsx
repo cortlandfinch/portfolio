@@ -11,22 +11,22 @@ const Footer = () => {
                     <a className='flex justify-between items-center w-full text-[#e9ecef]' href='/'>Cortland Finch</a>
                 </li>
                 <li className='footer-link flex justify-between items-center'>
-                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href="#">
+                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='https://www.linkedin.com/in/cortland-finch/'>
                         LinkedIn <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className='footer-link'>
-                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='/'>
+                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='https://github.com/cortlandfinch'>
                         GitHub <FaGithub size={30} />
                     </a>
                 </li>
                 <li className='footer-link'>
-                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='/'>
+                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='/contact'>
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className='footer-link'>
-                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='/'>
+                    <a className='flex justify-between items-center w-full text-[#e9ecef]' href='/resume'>
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>

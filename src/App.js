@@ -6,17 +6,20 @@ import TechnicalSkills from './components/TechnicalSkills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <Background />
-      <TechnicalSkills />
-      <Portfolio />
-      <Contact />
-      <Resume />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/background' element={<Background />} />
+        <Route path='/technical-skills' element={<TechnicalSkills />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
+      </Routes>
     </div>
   );
 }

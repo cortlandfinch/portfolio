@@ -6,6 +6,7 @@ import TechnicalSkills from './components/TechnicalSkills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

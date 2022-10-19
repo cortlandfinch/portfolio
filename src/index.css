@@ -48,8 +48,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 225px;
-    width: 500px;
+    max-width: 700px;
 }
 
 .project-container:hover {
@@ -57,4 +56,33 @@
         rgba(216, 208, 239, 1) 0%,
         rgba(147, 129, 255, 1) 100%
     )!important;
+}
+
+.footer-link {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-link:hover {
+    color: #9381ff;
+    transform: translateY(-2px);
+}
+
+.footer-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #9381ff;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.footer-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

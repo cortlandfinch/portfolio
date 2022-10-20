@@ -6,9 +6,9 @@ import project4 from '../assets/readmegenerator.gif';
 import project5 from '../assets/rvahotspot.png';
 import project6 from '../assets/scheduler.png';
 
-const Portfolio = () => {
+const Projects = () => {
     return (
-        <div name='portfolio' className='w-full md:h-screen bg-[#e9ecef] text-[#2b2b2b]'>
+        <div name='projects' className='w-full md:h-screen bg-[#e9ecef] text-[#2b2b2b]'>
             <div className='p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8 text-center'>
                     <h2 className='text-4xl inline border-b-4 border-[#9381ff] py-2'>Portfolio</h2>
@@ -105,4 +105,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default Projects

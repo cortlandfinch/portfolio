@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li className='nav-link'><a href='/'>HOME</a></li>
                 <li className='nav-link'><a href='/background'>BACKGROUND</a></li>
                 <li className='nav-link'><a href='/technical-skills'>TECHNICAL SKILLS</a></li>
-                <li className='nav-link'><a href='/portfolio'>PORTFOLIO</a></li>
+                <li className='nav-link'><a href='/projects'>PORTFOLIO</a></li>
                 <li className='nav-link'><a href='/contact'>CONTACT</a></li>
                 <li className='nav-link'><a href='/resume'>RESUME</a></li>
             </ul>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <li className='py-6 text-3xl'><a href='/'>Home</a></li>
                 <li className='py-6 text-3xl'><a href='/background'>Background</a></li>
                 <li className='py-6 text-3xl'><a href='/technical-skills'>Technical Skills</a></li>
-                <li className='py-6 text-3xl'><a href='/portfolio'>Portfolio</a></li>
+                <li className='py-6 text-3xl'><a href='/projects'>Portfolio</a></li>
                 <li className='py-6 text-3xl'><a href='/contact'>Contact</a></li>
                 <li className='py-6 text-3xl'><a href='/resume'>Resume</a></li>
             </ul>
